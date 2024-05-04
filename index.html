@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - NovaOS Hub</title>
-  </head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
 
-  <body>
-    <center>
-      <h2>hi</h2>
-    </center>
-  </body>
+<body>
+    <div class="box"></div>
+    <img onclick="go('home')" class="image" src="Logo.png" alt="Nova Logo">
+    <a href="https://novaoshub.github.io/downloads">
+        <div class="text" onclick="go('downloads')" style="top: -105px; left: calc(100vw - 100px);">Downloads</div>
+    </a>
+    <a href="https://novaoshub.github.io/downloads">
+        <div class="text" onclick="go('docs')" style="top: -122.9px; left: calc(100vw - 200px);">Documents</div>
+    </a>
+    <h1>
+        <div class="text">What is Nova?</div>
+    </h1>
+    <div class="text">Nova is an open-source operating system designed for universal use, offering essential tools and functionalities for everyday computing tasks. Whether you're a developer, student, or casual user, Nova provides a seamless and intuitive experience.</div>
+    <h1>
+        <div class="text">Features</div>
+    </h1>
+    <div class="text">Calculator: Perform basic arithmetic operations with ease using my built-in calculator. Notepad: Take notes, draft documents, or jot down ideas using the integrated notepad. Console: Access a command-line interface for advanced system operations and customization. Nova Virtual Machine: Run Operating Systems on a dedicated machine built just for you! More coming soon!</div>
+    <h1>
+        <div class="text">Getting Started</div>
+    </h1>
+    <div class="text">To get started, Download an ISO from the Downloads page. Then launch a VM in VMWare / VirtualBox using that ISO as the medium. It will start Setup. Follow the instructions and then you're ready to go!</div>
+    <footer>
+        <center>© 2023 - 2024 cosmic • All rights reserved.</center>
+    </footer>
+</body>
+
 </html>
